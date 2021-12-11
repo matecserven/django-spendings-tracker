@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'django_filters',
-    'spendings.apps.SpendingsConfig'
+    'spendings.apps.SpendingsConfig',
+    'custom_spendings.apps.CustomSpendingsConfig'
 ]
 
 MIDDLEWARE = [
